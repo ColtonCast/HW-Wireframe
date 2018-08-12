@@ -1,0 +1,137 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #ebebeb;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+header {
+    padding-top: 30px;
+    margin: 10px 0 10px 0;
+    margin-bottom: 20px;
+    border: #777 20px;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.667);
+    background: #777;
+    font-size: 18px;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-bottom: 40px;
+    border-top-width: 20px;
+}
+
+
+.container span {
+    width: 50%;
+    float: left;
+}
+
+.rightAside {
+    width: 30%;
+    float: right;
+    overflow: auto;
+    margin: 0px 10% 0px 0px;
+    height: 300px;
+    padding: 0px;
+    border-width: 0px;
+}
+
+#rightAsideborder {
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+#leftAsideborder {
+    border-left-width: 0px;
+}
+
+.leftSection {
+    width: 50%;
+    float: left;
+    overflow: auto;
+    margin: 0px 0px 0px 10%;
+    height: auto;
+    padding: 0px;
+    background: #ebebeb;
+}
+
+.containertest {
+    background: #ebebeb;
+    text-align: center;
+    box-sizing: border-box;
+    margin-inline-start: 0%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.border {
+    border-color: #777;
+    border-width: 10px;
+    border-style: solid;
+    color: black;
+}
+
+.articleshade {
+    background: #777;
+    color: #ebebeb;
+    border-style: solid;
+    border-color: #777;
+}
+
+#articleborder {
+    border-width: 15px 10px 10px 15px;
+    border-style: solid;
+    border-color:#ebebeb;
+}
+#innerborder {
+    border-color: #777;
+    border-width: 5px 10px 0px 10px;
+    border-style: solid;
+    color: black;
+    background: #ebebeb;
+}
+#bordersectionfix {
+    background: #ebebeb;
+    border-style: solid;
+    border-color: #777;
+    border-width: 0px 0px 0px 0px;
+    padding: 15;
+}
+
+#bordersectionfixpara {
+    background: #ebebeb;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-width: 0px 0px 0px 0px;
+    padding: 5;
+}
+/* FLEX CONTAINER OPTION TO KEEP THE LEFT AND RIGHT BOXES THE SAME HEIGHT WITH DIFFERENT CONTENT LENGTHS 
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ebebeb;
+  }
+  
+  .flex-container .box {
+    background-color: #ebebeb;
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  */
+
+
